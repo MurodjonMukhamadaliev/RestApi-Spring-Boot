@@ -1,0 +1,10 @@
+dependencies {
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.7.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-hateoas', version: '2.7.0'
+    implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.7.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-jdbc', version: '2.7.0'
+    implementation 'org.postgresql:postgresql:42.3.6'
+    implementation group: 'com.zaxxer', name: 'HikariCP', version: '5.0.1'
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.9.Final'
+    implementation project(":model")
+}
